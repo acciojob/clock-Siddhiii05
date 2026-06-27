@@ -7,5 +7,5 @@ setInterval(
 	function () {
 		currentDate = new Date();
 		timerDisplay.innerHTML = currentDate.toLocaleString();
-	}, 1000;
+	}, 1000
 )
